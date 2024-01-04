@@ -1,9 +1,9 @@
-############### Blackjack Project #####################
+############## Blackjack Project #####################
 
-#Difficulty Normal 😎: Use all Hints below to complete the project.
-#Difficulty Hard 🤔: Use only Hints 1, 2, 3 to complete the project.
-#Difficulty Extra Hard 😭: Only use Hints 1 & 2 to complete the project.
-#Difficulty Expert 🤯: Only use Hint 1 to complete the project.
+# Difficulty Normal 😎: Use all Hints below to complete the project.
+# Difficulty Hard 🤔: Use only Hints 1, 2, 3 to complete the project.
+# Difficulty Extra Hard 😭: Only use Hints 1 & 2 to complete the project.
+# Difficulty Expert 🤯: Only use Hint 1 to complete the project.
 
 import random
 import art
@@ -15,6 +15,7 @@ def generate():
     return 10
   else:
     return num
+
 
 def mine_cards():
   mine = []
@@ -35,6 +36,7 @@ def mine_cards():
     mine += [num1, num2]
     return mine
 
+
 def com_cards():
   com = []
   num = generate()
@@ -45,10 +47,11 @@ def com_cards():
     com += [num]
     return com
 
+
 def continue_com(com):
   new_com = com
   num = generate()
-  
+
   if new_com[0] == 11:
     new_com += [num]
   elif num == 1:
@@ -60,7 +63,6 @@ def continue_com(com):
     num = generate()
     if num == 1 and sum(new_com) <= 10:
       new_com += [11]
-      return new_com
     else:
       new_com += [num]
   return new_com
