@@ -13,7 +13,7 @@ def random_color():
 
 
 def random_walk():
-    walk.speed(5)
+    walk.speed(10)
     walk.width(15)
     random_color()
     walk.forward(30)
