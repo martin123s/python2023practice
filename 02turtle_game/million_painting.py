@@ -6,7 +6,7 @@ obj.shape("classic")
 obj.width(10)
 
 
-# turn the obj to the left down starting position
+# turn the obj to the left down starting position.
 def turn_left_down():
     obj.right(180)
     obj.penup()
