@@ -4,6 +4,7 @@ import turtle as t
 obj = t.Turtle()
 obj.shape("classic")
 obj.width(10)
+obj.hideturtle()
 
 
 # turn the obj to the left down starting position.
@@ -18,12 +19,20 @@ def turn_left_down():
 
 
 # draw a single circle with random color.
+# def draw_circle():
+#     R = random.random()
+#     G = random.random()
+#     B = random.random()
+#     obj.pencolor((R, G, B))
+#     obj.circle(5)
+
+
+# using dot function looks better
 def draw_circle():
     R = random.random()
     G = random.random()
     B = random.random()
-    obj.pencolor((R, G, B))
-    obj.circle(5)
+    obj.dot(20, (R, G, B))
 
 
 # back to left most start point.
