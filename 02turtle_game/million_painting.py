@@ -17,7 +17,7 @@ def turn_left_down():
     obj.left(90)
 
 
-# draw a single circle with random color
+# draw a single circle with random color.
 def draw_circle():
     R = random.random()
     G = random.random()
