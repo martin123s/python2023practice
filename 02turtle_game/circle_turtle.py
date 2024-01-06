@@ -19,7 +19,7 @@ def circle_color():
 
 
 def circle_pattern():
-    for i in range(80):
+    for i in range(100):
         circle_color()
         circle.left(i)
         circle.speed("fastest")
