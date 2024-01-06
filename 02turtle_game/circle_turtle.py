@@ -3,7 +3,7 @@ import turtle as t
 
 circle = t.Turtle()
 
-# step by step to build the circle
+# step by step to build the circle.
 # for i in range(360):
 #     circle.speed("fastest")
 #     circle.left(1)

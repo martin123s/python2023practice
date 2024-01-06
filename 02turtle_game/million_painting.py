@@ -26,7 +26,7 @@ def draw_circle():
     obj.circle(5)
 
 
-# back to left most start point
+# back to left most start point.
 def start_point():
     obj.left(90)
     obj.penup()

@@ -7,7 +7,7 @@ pattern.shape("classic")
 '''
 from triangle to other polygons
 each angle of the pattern is:
-angle = (n-2)*180/n
+angle = (n-2)*180/n.
 '''
 for num in range(3, 11):
     angle = (num-2)*180/num
